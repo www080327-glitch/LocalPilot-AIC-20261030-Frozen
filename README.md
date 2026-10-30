@@ -1,5 +1,7 @@
 # LocalPilot
 
+**AIC 初赛冻结提交｜2026-10-30 20:00（北京时间）截止。** 本仓库发布后归档只读，后续开发在原仓库进行。详见 [初赛提交说明](AIC初赛提交说明.md) 和 [版本校验记录](AIC_FREEZE.json)。
+
 随着 AI Agent 的发展，越来越多的人希望让 AI 真正帮助自己完成任务，但高昂的云端 API 费用让许多人望而却步。虽然本地模型可以降低使用成本，复杂的部署流程、模型与 Agent 的兼容问题，以及长上下文带来的推理延迟，仍让普通用户难以入门。
 
 为此，我们开发了 LocalPilot，一款面向大众的本地与云端协同 AI Agent。它将模型部署、管理和任务执行整合在一起，让用户无需复杂配置，就能轻松使用本地智能体。同时，我们针对 DeepSeek、Qwen 等模型优化了任务执行与长上下文缓存，并通过智能路由，让本地模型承担更多任务，在保持任务完成能力的同时降低云端费用。
@@ -8,7 +10,7 @@ LocalPilot 采用 Apache 2.0 开源协议，致力于让强大、易用且低成
 
 ## 当前发行
 
-[下载 macOS 安装包](https://github.com/www080327-glitch/LocalPilot-OpenSource/releases)。发布页提供 PKG、安装说明和 SHA256 校验文件。
+[下载 macOS 安装包](https://github.com/www080327-glitch/LocalPilot-AIC-20261030-Frozen/releases/tag/aic-preliminary-20261030)。发布页提供 PKG、安装说明和 SHA256 校验文件。
 
 桌面版目前支持 Apple Silicon Mac，要求 macOS 15 或更新版本。安装包约 150 MB，自带 Python 和后台组件。本地模型通过 oMLX 运行，首次向导会引导安装或连接已有 oMLX；模型权重单独下载或导入。
 

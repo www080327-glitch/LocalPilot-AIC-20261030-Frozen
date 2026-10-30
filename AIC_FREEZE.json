@@ -1,0 +1,17 @@
+{
+  "purpose": "AIC preliminary submission frozen snapshot",
+  "deadline": "2026-10-30T20:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "source_repository": "https://github.com/www080327-glitch/LocalPilot-OpenSource",
+  "source_commit": "34e95eb1b66afd0cdfe0d6a41b9ec748b41a4e1b",
+  "source_release": "desktop-v5.0.1-rc.7-chat-20261030",
+  "source_release_published_at": "2026-10-30T19:02:45+08:00",
+  "installer": {
+    "name": "LocalPilot-5.0.1-rc.7-arm64.pkg",
+    "bytes": 147054911,
+    "sha256": "e35fada7eac7ae276c9c4dc133a6248f44034d222ad5bb5799a7dbcadb77507d",
+    "rebuilt": false
+  },
+  "frozen_release_tag": "aic-preliminary-20261030",
+  "freeze_policy": "Archive this independent repository after publication. Future development remains in the source repository. No timestamp rewriting."
+}
